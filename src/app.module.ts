@@ -4,7 +4,5 @@ import { NatsModule } from './transports/nats.module';
 
 @Module({
   imports: [OrdersModule, NatsModule],
-  controllers: [],
-  providers: [],
 })
 export class AppModule {}
